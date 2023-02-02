@@ -1,0 +1,2 @@
+using MPIBenchmarks
+benchmark(OSUAllreduce(;filename="coll_tuned_allreduce_algorithm_nonoverlapping_tuned_reduce_plus_tuned_bcast.jl.csv"))
