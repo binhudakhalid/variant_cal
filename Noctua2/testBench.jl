@@ -1,12 +1,44 @@
 using Bench
 
 #bench1("MPI_Allreduce", "task_000p2", @__FILE__, "OpenMPI")
-benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/dic_all_reduce1")
-benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/dic_all_reduce1")
+#benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/dic_all_reduce1")
+#benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/dic_all_reduce1")
+
+bench1("MPI_Bcast", "Bcast", @__FILE__, "OpenMPI")
+#benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/MPI_Bcast")
+#benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/MPI_Bcast")
+
+bench1("MPI_Alltoall", "Alltoall", @__FILE__, "OpenMPI")
+#benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Alltoall")
+#benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Alltoall")
+
+bench1("MPI_Alltoallv", "Alltoallv", @__FILE__, "OpenMPI")
+#benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Alltoallv")
+#benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Alltoallv")
 
 
+bench1("MPI_Allgather", "Allgather", @__FILE__, "OpenMPI")
+#benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Allgather")
+#benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Allgather")
 
+bench1("MPI_Allgatherv", "Allgatherv", @__FILE__, "OpenMPI")
+#benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Allgatherv")
+#benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Allgatherv")
 
+bench1("MPI_Scatter", "Scatter", @__FILE__, "OpenMPI")
+#benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Scatter")
+#benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Scatter")
+
+bench1("MPI_Reduce", "Reduce", @__FILE__, "OpenMPI")
+#benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Reduce")
+#benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Reduce")
+
+bench1("MPI_Gather", "Gather", @__FILE__, "OpenMPI")
+#benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Gather")
+#benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Gather")
+
+bench1("MPI_Alltoallv", "Alltoallv", @__FILE__, "OpenMPI")
+#benchmark(LineGraph(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Alltoall#benchmark(BarChart(), "/scratch/hpc-prf-mpibj/com_j_variant/Noctua2/Alltoallv")
 
 
 
