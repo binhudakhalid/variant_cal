@@ -1,0 +1,14 @@
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=5 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Topology_aware_recursive_doubling.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=7 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Shumilin_s.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=12 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_NUMA_aware_SHM-based_SSE4_2.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=8 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Knomial.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=1 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Binomial.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=4 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Topology_aware_binomial.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=6 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Topology_aware_binominal_gather_+_scatter.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=13 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_NUMA_aware_SHM-based_AVX2.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=2 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Recursive_doubling.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=10 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Topology_aware_SHM-based_Knomial.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=11 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Topology_aware_SHM-based_Knary.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=9 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Topology_aware_SHM-based_flat.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=14 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_NUMA_aware_SHM-based_AVX512.jl 
+mpiexec -genv I_MPI_DEBUG=6 -genv I_MPI_ADJUST_BCAST=3 -np 16 julia --project  ./mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_BCAST_Ring.jl 

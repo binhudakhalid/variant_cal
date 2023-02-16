@@ -1,0 +1,4 @@
+mpiexec  --mca mpi_show_mca_params all --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_scatter_algorithm 1 -np 64 julia --project ./mpiOpenMPI4.1.4-GCC-11.3.0/coll_tuned_scatter_algorithm_basic_linear.jl 
+mpiexec  --mca mpi_show_mca_params all --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_scatter_algorithm 0 -np 64 julia --project ./mpiOpenMPI4.1.4-GCC-11.3.0/coll_tuned_scatter_algorithm_ignore.jl 
+mpiexec  --mca mpi_show_mca_params all --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_scatter_algorithm 2 -np 64 julia --project ./mpiOpenMPI4.1.4-GCC-11.3.0/coll_tuned_scatter_algorithm_binomial.jl 
+mpiexec  --mca mpi_show_mca_params all --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_scatter_algorithm 3 -np 64 julia --project ./mpiOpenMPI4.1.4-GCC-11.3.0/coll_tuned_scatter_algorithm_non-blocking_linear.jl 
